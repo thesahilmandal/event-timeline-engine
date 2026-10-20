@@ -1,0 +1,10 @@
+row_id,order_id,event_id,anomaly_type,details
+XR0005,XO1,XE01,DUPLICATE_EVENT,Repeated event_id and matching event identity
+XR0008,XO2,XE08,INVALID_TRANSITION,CANCELLED -> DELIVERED is not allowed
+XR0009,XO3,XE09,INVALID_TRANSITION,START -> PAID is not allowed
+XR0010,XO3,XE10,MISSING_TIMESTAMP,Empty event_time
+XR0012,XO4,XE11,EVENT_ID_CONFLICT,Repeated event_id with differing event identity
+XR0013,XO5,XE13,UNKNOWN_EVENT,Unknown/empty event_type
+XR0014,,XE14,MISSING_ORDER_ID,Empty order_id
+XR0015,XO6,,MISSING_EVENT_ID,Empty event_id
+XR0017,XO7,XE17,INVALID_TIMESTAMP,Cannot parse event_time as supported UTC format

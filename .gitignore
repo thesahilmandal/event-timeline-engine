@@ -1,0 +1,30 @@
+# Python cache and compiled files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.env
+.venv
+env/
+venv/
+ENV/
+
+# IDE and OS specific files
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Testing cache
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Assessment Specific: Exclude large input data
+data/order_events.csv
+data/debug_subset.csv
+
+# Exclude generated submission archives
+*.zip
+*.tar.gz
+*.rar
